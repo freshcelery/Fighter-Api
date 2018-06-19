@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+"psycopg2" = "*"
+django-rest-framework = "*"
+httpie = "*"
+django-cors-headers = "*"
+django-filter = "*"
+django-crispy-forms = "*"
+djangorestframework = "*"
+django-reset-migrations = "*"
+coverage = "*"
+django-nose = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
