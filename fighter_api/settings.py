@@ -42,7 +42,17 @@ INSTALLED_APPS = [
     'corsheaders',
     'django_filters',
     'crispy_forms',
-    'reset_migrations'
+    'reset_migrations',
+    'django_nose'
+]
+
+TEST_RUNNER = 'django_nose.NoseTestSuiteRunner'
+
+NOSE_ARGS = [
+    '--with-coverage',
+    '--cover-erase',
+    '--cover-inclusive',
+    '--cover-package=fighters',
 ]
 
 CORS_ORIGIN_ALLOW_ALL = True
