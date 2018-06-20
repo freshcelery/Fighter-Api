@@ -1,13 +1,12 @@
 [[source]]
-url = "https://pypi.python.org/simple"
+url = "https://pypi.org/simple"
 verify_ssl = true
 name = "pypi"
 
 [packages]
 django = "*"
-"psycopg2" = "*"
+"psycopg2-binary" = "*"
 django-rest-framework = "*"
-httpie = "*"
 django-cors-headers = "*"
 django-filter = "*"
 django-crispy-forms = "*"
