@@ -121,7 +121,7 @@ DATABASES = {
         'NAME': 'fighter_api',
         'USER': 'fighter_api',
         'PASSWORD': 'Zone10%%',
-        'HOST': '127.0.0.1',
+        'HOST': 'postgres://jcvvliuccorasm:1f6488030767c56a0dc3a97b5d8f0d90c760a8d03b90027ec7d0e2e74cb3c9d3@ec2-54-83-59-120.compute-1.amazonaws.com:5432/dd504oj4n17nuv',
         'PORT': '5432',
     }
 }
