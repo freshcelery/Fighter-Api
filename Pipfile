@@ -14,6 +14,7 @@ djangorestframework = "*"
 django-reset-migrations = "*"
 coverage = "*"
 django-nose = "*"
+dj-database-url = "*"
 
 [dev-packages]
 
