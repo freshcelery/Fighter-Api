@@ -1,1 +1,1 @@
-web: gunicorn fighter_api.wsgi
+web: python fighter_api/manage.py collectstatic --noinput; gunicorn fighter_api.wsgi
