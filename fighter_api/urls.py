@@ -25,5 +25,3 @@ urlpatterns = [
     url(r'^', include('fighters.urls')),
     url(r'^api-auth/', include('rest_framework.urls')),
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
-
-urlpatterns += staticfiles_urlpatterns()
