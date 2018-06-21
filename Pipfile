@@ -16,6 +16,7 @@ coverage = "*"
 django-nose = "*"
 dj-database-url = "*"
 gunicorn = "*"
+whitenoise = "*"
 
 [dev-packages]
 
