@@ -15,6 +15,7 @@ django-reset-migrations = "*"
 coverage = "*"
 django-nose = "*"
 dj-database-url = "*"
+gunicorn = "*"
 
 [dev-packages]
 
