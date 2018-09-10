@@ -32,6 +32,7 @@ class Fighter(models.Model):
     )
     latitude = models.FloatField(default=None, blank=True, null=True)
     longitude = models.FloatField(default=None, blank=True, null=True)
+    image = models.URLField()
 
     class Meta:
         ordering = ('name',)
