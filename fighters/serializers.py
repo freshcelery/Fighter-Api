@@ -63,6 +63,5 @@ class FighterSerializer(serializers.HyperlinkedModelSerializer):
             'weightclass',
             'latitude',
             'longitude',
-            'image',
             'owner'
         )
